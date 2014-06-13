@@ -9,6 +9,9 @@
 /*
  sequential search
  analysis : problem with it the length of array this could increase runtime according it's will compare every new value with setted value in [currentlarge] which takes more time for calls between processor then ram and set new large value at our variable which will call processor and processor will call ram for set it in variable address at memory for e.g if Memory address 1x000011 it's will call it 1000 time if variable length 1000
+ factor for run time (T) size of array (n) , T(n)
+ T(n) = c(n) where is n size of array and c compare for two integers and t for time
+ 
  */
 
 #include <iostream>
